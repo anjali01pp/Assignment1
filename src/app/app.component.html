@@ -2,14 +2,14 @@
 <div class="row">
 <h1  class="center" >Country Filter</h1>
 <div class="col-sm-12 countrylist">
-<input type="text" class="myInput" [(ngModel)]="filterText" (input)="filterCountries()" placeholder="Search Countries.....">
+<input type="text" class="CountryInput" [(ngModel)]="filterText" (input)="filterCountries()" placeholder="Search Countries.....">
 <div *ngIf="filterText !='' && Filterlength != 0">
-<ul class="myUL" >
+<ul class="countryUl" >
 <li *ngFor="let country of filteredCountries">{{ country }}</li>
 </ul>
 </div>
 <div *ngIf="filterText ==''">
-  <ul class="myUL">
+  <ul class="countryUl">
     <li *ngFor="let country of countries">{{ country }}</li>
   </ul>
   </div>
