@@ -1,0 +1,43 @@
+.myInput {
+    
+    background-position: 10px 12px;
+    background-repeat: no-repeat; 
+    width: 100%; 
+    font-size: 16px;
+    padding: 12px 20px 12px 40px; 
+    border: 3px solid #395297; 
+    border-radius: 10px;
+    margin-bottom: 12px; 
+  }
+  
+  .myUL {
+    border: 2px solid #233557; 
+    border-radius: 3px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -1px; 
+    background-color: #fff; 
+    padding:  10px;
+    text-decoration: none; 
+    font-size: 18px; 
+    color: black; 
+    display: block;
+    overflow-y: scroll;
+    height:500px;
+  }
+  
+.center {
+text-align: center;
+align-items: center;
+position :relative;
+
+}
+.countrylist {
+  margin-top:50px;
+}
+.centerDiv{
+position: relative;
+align-items: center;
+width:500px;
+}
