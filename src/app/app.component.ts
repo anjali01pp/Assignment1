@@ -65,7 +65,7 @@ export class AppComponent {
   Filterlength! :number;
   filterCountries() {
   this.filteredCountries = this.countries.filter(country =>
-  country.toLowerCase().startsWith(this.filterText.toLowerCase())
+  country.toLowerCase().startsWith(this.filterText.trim().toLowerCase())
   );
   this.Filterlength =  this.filteredCountries.length;
     }
